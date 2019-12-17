@@ -15,7 +15,9 @@ end
 summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 
 def long_planeteer_calls(short_words)
-short_words.map(
+
+   short_words.any? { |word| word.length > 4}
+end
   
 end
 long_planeteer_calls(["puff", "go", "two"])
