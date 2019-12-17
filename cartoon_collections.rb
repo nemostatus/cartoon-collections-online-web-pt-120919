@@ -18,7 +18,7 @@ def long_planeteer_calls(short_words)
 
    short_words.any? { |word| word.length > 4}
 end
-  
+  long_planeteer_calls([])
 end
 long_planeteer_calls(["puff", "go", "two"])
 def find_the_cheese# code an argument here
